@@ -1,0 +1,84 @@
+nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #2d947d;
+  color: white;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.container {
+  background: white;
+}
+
+.profileCard {
+  margin-left: auto;
+  border: thin solid;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form,
+.form2 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 30px;
+  width: 50vh;
+  height: 65vh;
+  margin-top: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.nav-button {
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formContainer2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white ;
+  gap: 10px;
+}
+
+.profileContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 40px;
+}
+
+.guestPhoto {
+  font-size: 50px;
+}
